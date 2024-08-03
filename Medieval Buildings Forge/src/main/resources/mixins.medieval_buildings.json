@@ -1,0 +1,18 @@
+{
+  "package": "com.craftix.medieval_buildings.mixin",
+  "minVersion": "0.6",
+  "required": true,
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+
+    "ChunkGeneratorMix"
+
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "maxShiftBy": 10,
+    "defaultRequire": 1
+  },
+  "refmap": "mixins.medieval_buildings.refmap.json"
+}

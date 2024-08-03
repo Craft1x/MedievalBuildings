@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "medieval_buildings",
+  "version": "1.0.2",
+  "name":  "Medieval Buildings",
+  "description": "Adds new buildings to Minecraft",
+
+  "authors": [
+    "Lupin, Craft1x"
+  ],
+  "contact": {
+    "homepage": "https://linktr.ee/craft1x"
+  },
+  "license": "CC0-1.0",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.craftix.medieval_buildings.MainEntrypointFabric"
+    ]
+  },
+  "mixins": [
+    "mixins.medieval_buildings.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

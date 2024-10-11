@@ -1,0 +1,34 @@
+{
+  // What structures to pick to try and spawn if a spot passes the placement check.
+  // If two or more structures in this list can spawn in a biome at a spot, a random one based on weight is chosen to spawn
+  "structures": [
+    {
+      "structure": "medieval_buildings:house_2",
+      "weight": 2
+    },
+    {
+      "structure": "medieval_buildings:house_1",
+      "weight": 3
+    },
+    {
+      "structure": "medieval_buildings:tower",
+      "weight": 2
+    },
+    {
+      "structure": "medieval_buildings:fort",
+      "weight": 1
+    }
+
+  ],
+  "placement": {
+    // Make sure this is unique and does not match any other structure set's salt
+    "salt": 602865,
+    // The average distance apart in chunks for spawn attempts
+    "spacing": 105,
+    // Minimum distance apart in chunks for spawn attempts
+    // MUST ALWAYS BE SMALLER THAN spacing ABOVE
+    "separation": 77,
+    // The kind of placement to use. The other kind is ring based like strongholds use.
+    "type": "minecraft:random_spread"
+  }
+}

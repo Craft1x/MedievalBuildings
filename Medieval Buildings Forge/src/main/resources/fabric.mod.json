@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "medieval_buildings",
+  "version": "1.0.1",
+  "name": "Medieval Buildings",
+  "description": "Adds new buildings to Minecraft",
+  "authors": [
+    "Lupin, Craft1x"
+  ],
+  "contact": {
+    "homepage": "https://linktr.ee/craft1x"
+  },
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "mixins.medieval_buildings.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.x"
+  }
+}
